@@ -329,4 +329,45 @@ header nav p {
 .main7 .pics .p8 {
   color: #656464;
   font-size: 18px;
+}
+
+.footer1 {
+  background-color: #2B2B39;
+  height: 390px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+}
+.footer1 .dhome {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.footer1 .dhome p {
+  color: white;
+}
+.footer1 .regist {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.footer1 .regist .inps {
+  display: flex;
+}
+.footer1 .regist .inps .inp {
+  background-color: #2B2B39;
+  border: 1px solid gray;
+  padding: 15px 0px;
+  border-radius: 10px;
+  width: 200px;
+}
+.footer1 .regist .inps button {
+  background-color: #F1F7FF;
+  border: none;
+  border-radius: 12px;
+  color: #217BF4;
+  padding: 15px 20px;
+  color: black;
 }/*# sourceMappingURL=style.css.map */

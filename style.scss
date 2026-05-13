@@ -325,3 +325,39 @@ header {
     }
 
 }
+.footer1 {
+    background-color: #2B2B39;
+    height: 390px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    .dhome {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        p {
+            color: white;
+        }
+    } 
+    .regist {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        .inps {
+          display: flex;
+          .inp {
+            background-color: #2B2B39;
+            border: 1px solid gray;
+            padding: 15px 0px;
+            border-radius: 10px;
+            width: 200px;
+          }
+          button {
+            @include buttons ;
+            color: black;
+          }
+        }
+    }
+}
