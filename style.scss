@@ -232,3 +232,42 @@ header {
         }
     }
 }
+.main5 {
+    margin-top: 150px;
+    .sar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        align-items: center;
+        p {
+            @include topic ;
+        }
+        .p6 {
+            @include pho;
+        }
+    }
+    .people {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 35px;
+        .poeple1 {
+          width: 270px;
+          height: 310px;
+          box-shadow: 5px 0px 7px gray;
+          border-radius: 12px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          row-gap: 25px; 
+          p {
+            @include pho;
+          }
+          h1 {
+            font-size: 25px;
+          }
+        }
+    }
+
+}

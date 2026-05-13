@@ -226,4 +226,47 @@ header nav p {
 .main4 .gred .gred1 .member p {
   color: #656464;
   font-size: 18px;
+}
+
+.main5 {
+  margin-top: 150px;
+}
+.main5 .sar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  align-items: center;
+}
+.main5 .sar p {
+  color: #217BF4;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main5 .sar .p6 {
+  color: #656464;
+  font-size: 18px;
+}
+.main5 .people {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 35px;
+}
+.main5 .people .poeple1 {
+  width: 270px;
+  height: 310px;
+  box-shadow: 5px 0px 7px gray;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 25px;
+}
+.main5 .people .poeple1 p {
+  color: #656464;
+  font-size: 18px;
+}
+.main5 .people .poeple1 h1 {
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
