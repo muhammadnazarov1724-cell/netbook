@@ -1,0 +1,81 @@
+$color : #217BF4 ;
+$psizes : 14px ;
+$pweight : 500 ;
+$pcolor : #656464 ;
+@mixin buttons {
+            background-color: #F1F7FF;
+            border: none;
+            border-radius: 12px;
+            color: $color;
+            padding: 15px 20px; 
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    height: 90px;
+    border-bottom: 1px solid $pcolor;
+    nav {
+        display: flex;
+        gap: 35px;
+        p {
+            font-weight: $pweight;
+            font-size: $psizes;
+            color: $pcolor;
+        }
+    }
+}
+.main1 {
+    height: 650px;
+    background-color: #EDF5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    .dl1 {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+       .btnnet {
+        color: $color;
+        background-color: #E7F1FE;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 175px;
+       }
+       h1 {
+        font-size: 55px;
+       }
+       p {
+        color: $pcolor;
+        font-size: 18px;
+       }
+       .btns {
+        .btnmore {
+            @include buttons ;
+            color: white;
+            background-color: $color;
+            padding: 15px 25px;
+        }
+        .bntin {
+            background-color: #F1F7FF;
+            border: 1px solid $color;
+            border-radius: 12px;
+            color: $color;
+            padding: 15px 20px; 
+        }
+       }
+    }
+}
