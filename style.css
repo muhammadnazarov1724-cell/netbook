@@ -114,4 +114,72 @@ header nav p {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 40px;
+}
+.main3 .box1 {
+  width: 335px;
+  height: 334px;
+  box-shadow: 0px 0px 10px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 25px;
+  row-gap: 32px;
+}
+.main3 .box1 .d1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main3 .box1 .d1 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.main3 .box1 .d2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.main3 .box1 .d2 p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.main3 .box1 .p4 {
+  color: #8C8C8C;
+  font-size: 17px;
+}
+.main3 .box1 p {
+  color: #217BF4;
+}
+.main3 .box2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 365px;
+}
+.main3 .box2 p {
+  color: #217BF4;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main3 .box2 .p5 {
+  color: #656464;
+  font-size: 18px;
+}
+.main3 .box2 button {
+  background-color: #F1F7FF;
+  border: none;
+  border-radius: 12px;
+  color: #217BF4;
+  padding: 15px 20px;
+  background-color: #217BF4;
+  color: white;
+  width: 190px;
 }/*# sourceMappingURL=style.css.map */
