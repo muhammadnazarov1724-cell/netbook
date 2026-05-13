@@ -271,3 +271,29 @@ header {
     }
 
 }
+.main6 {
+    background-color: #E5F0FD;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    align-items: center;
+
+    .dl6 {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    p {
+        @include topic ;
+    }
+    .p7 {
+        @include pho ;
+    }
+    div {
+        display: flex;
+        align-items: center;
+    }
+} 
+}

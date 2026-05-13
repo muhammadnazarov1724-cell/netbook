@@ -269,4 +269,33 @@ header nav p {
 }
 .main5 .people .poeple1 h1 {
   font-size: 25px;
+}
+
+.main6 {
+  background-color: #E5F0FD;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+  align-items: center;
+}
+.main6 .dl6 {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.main6 .dl6 p {
+  color: #217BF4;
+  font-weight: 500;
+  font-size: 18px;
+}
+.main6 .dl6 .p7 {
+  color: #656464;
+  font-size: 18px;
+}
+.main6 .dl6 div {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
