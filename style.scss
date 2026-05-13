@@ -297,3 +297,31 @@ header {
     }
 } 
 }
+.main7 {
+    margin-top: 200px;
+    .sar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        align-items: center;
+        p {
+            @include topic ;
+        }
+    }
+    .pics {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 70px;
+        .pic1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 20px
+        }
+        .p8 {
+            @include pho ;
+        }
+    }
+
+}
