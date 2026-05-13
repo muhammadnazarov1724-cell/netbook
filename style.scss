@@ -192,3 +192,43 @@ header {
         }
     }
 }
+.main4 {
+    margin-top: 150px;
+    .sar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        align-items: center;
+        p {
+            @include topic ;
+        }
+        .p6 {
+            @include pho;
+        }
+    }
+    .gred {
+        display: grid;
+        grid-template-columns: repeat(2, 520px);
+        grid-template-rows: repeat(3, 180px);
+        justify-content: center;
+        margin-top: 50px;
+        gap: 30px;
+        .gred1 {
+            box-shadow: 0px 0px 10px gray;
+            border-radius: 10px;
+            display: flex;
+            padding: 40px 25px; 
+            gap: 20px;
+            
+            .member {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                width: 300px; 
+                p {
+                    @include pho ;
+                }
+            }
+        }
+    }
+}
